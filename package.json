@@ -1,5 +1,5 @@
 {
-  "name": "capacitor-screenshot",
+  "name": "@supernotes/capacitor-screenshot",
   "version": "6.0.1",
   "description": "This plugin take screenshot of the app or webpage",
   "main": "dist/plugin.cjs.js",
@@ -18,10 +18,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ludufre/capacitor-screenshot.git"
+    "url": "git+https://github.com/supernotes/capacitor-screenshot.git"
   },
   "bugs": {
-    "url": "https://github.com/ludufre/capacitor-screenshot/issues"
+    "url": "https://github.com/supernotes/capacitor-screenshot/issues"
   },
   "keywords": [
     "capacitor",
@@ -40,7 +40,7 @@
     "prettier": "prettier \"**/*.{css,html,ts,js,java}\"",
     "swiftlint": "node-swiftlint",
     "docgen": "docgen --api ScreenshotPlugin --output-readme README.md --output-json dist/docs.json",
-    "build": "npm run clean && npm run docgen && tsc && rollup -c rollup.config.js",
+    "build": "npm run clean && tsc && rollup -c rollup.config.js",
     "clean": "rimraf ./dist",
     "watch": "tsc --watch",
     "prepublishOnly": "npm run build"
@@ -49,7 +49,7 @@
     "@capacitor/android": "^6.0.0",
     "@capacitor/cli": "^6.0.0",
     "@capacitor/core": "^6.0.0",
-    "@capacitor/docgen": "^0.2.1",
+    "@capacitor/docgen": "^0.2.2",
     "@capacitor/ios": "^6.0.0",
     "@ionic/eslint-config": "^0.3.0",
     "@ionic/prettier-config": "^4.0.0",
